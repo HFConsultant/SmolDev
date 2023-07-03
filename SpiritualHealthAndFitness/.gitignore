@@ -1,0 +1,81 @@
+# .gitignore
+
+# Ignore Next.js build output
+.next
+out
+
+# Ignore development files
+node_modules
+*.log
+
+# Ignore env files
+.env*
+!.env.example
+
+# Ignore typescript build output
+dist
+
+# Ignore IDE specific files
+.vscode
+.idea
+*.swp
+*.swo
+*.swn
+*.bak
+*.orig
+*.old
+*.sage
+*.tmp
+*.temp
+*.o
+*.obj
+*.map
+*.DS_Store
+*.class
+*.pyc
+*.pyo
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+*.pid
+*.log
+*.rpcgen
+*.tst
+*.prof
+*.ncb
+*.suo
+*.user
+*.userosscache
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
+# Ignore OS specific files
+.DS_Store
+Thumbs.db
