@@ -1,0 +1,53 @@
+@import './signin.css';
+@import './posts.css';
+@import './post.css';
+@import './comment.css';
+@import './likebutton.css';
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header {
+  padding: 20px 0;
+  background: #333;
+  color: #ffffff;
+}
+
+.header a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.main {
+  padding: 20px 0;
+}
+
+.quote-of-the-day {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.signin-button {
+  background-color: #4285f4;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.signin-button:hover {
+  background-color: #2a75f3;
+}

@@ -1,0 +1,29 @@
+.like-button {
+  display: inline-block;
+  margin: 0 0.5em;
+  padding: 0.5em 1em;
+  background-color: #f8f9fa;
+  border: 1px solid #ced4da;
+  border-radius: 0.25em;
+  color: #212529;
+  text-decoration: none;
+  font-size: 0.875em;
+  line-height: 1.5;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.like-button:hover {
+  background-color: #e9ecef;
+  color: #212529;
+}
+
+.like-button:active {
+  background-color: #dee2e6;
+  color: #212529;
+}
+
+.like-button:disabled {
+  background-color: #f8f9fa;
+  color: #ced4da;
+  cursor: not-allowed;
+}
