@@ -1,0 +1,25 @@
+.commentContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+}
+
+.commentAuthor {
+    font-weight: bold;
+    color: #333;
+}
+
+.commentText {
+    margin: 0.5rem 0;
+    color: #666;
+}
+
+.commentDate {
+    font-size: 0.8rem;
+    color: #999;
+}
+
+.commentActions {
+    display: flex;
+    justify-content: space-between;
+}

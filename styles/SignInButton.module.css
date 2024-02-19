@@ -1,0 +1,17 @@
+.signin-button {
+    display: inline-block;
+    padding: 0.5em 1em;
+    color: #fff;
+    background-color: #3b82f6;
+    border-radius: 0.25em;
+    text-decoration: none;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.signin-button:hover {
+    background-color: #2563eb;
+}
+
+.signin-button:active {
+    background-color: #1d4ed8;
+}
